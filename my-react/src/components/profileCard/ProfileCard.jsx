@@ -11,7 +11,7 @@ function ProfileCard(obj) {
           <img src={obj.avatar} height={300} alt={obj.name} />
         </div>
       </div>
-      <div className="profileCard_h2">
+      
         
         <p>
           <span>Name: </span>
@@ -27,7 +27,7 @@ function ProfileCard(obj) {
           {obj.hobby}
         </p>
       </div>
-    </div>
+  
   );
 }
 export default ProfileCard;
