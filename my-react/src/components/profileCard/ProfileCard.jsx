@@ -1,4 +1,4 @@
-import "./ProfileCard.css";
+import "../profileCard/ProfileCard.css";
 
 function ProfileCard(obj) {
   return (
